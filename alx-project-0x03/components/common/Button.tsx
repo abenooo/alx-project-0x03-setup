@@ -1,9 +1,4 @@
-interface BUttonProps {
-  buttonLabel: string;
-  buttonSize?: string;
-  buttonBackgroundColor?: "red" | "blue" | "orange" | "green";
-  action?: () => void;
-}
+import { BUttonProps } from "@/interfaces";
 
 const Button: React.FC<BUttonProps> = ({
   buttonLabel,
