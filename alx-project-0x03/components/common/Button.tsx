@@ -1,6 +1,6 @@
-import { BUttonProps } from "@/interface";
+import { ButtonProps } from "@/interface";
 
-const Button: React.FC<BUttonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   buttonLabel,
   buttonSize,
   buttonBackgroundColor,

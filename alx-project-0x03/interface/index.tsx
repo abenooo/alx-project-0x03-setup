@@ -4,7 +4,7 @@ export interface PageRouteProps {
   pageRoute: string;
 }
 
-export interface BUttonProps {
+export interface ButtonProps {
   buttonLabel: string;
   buttonSize?: string;
   buttonBackgroundColor?: "red" | "blue" | "orange" | "green";
